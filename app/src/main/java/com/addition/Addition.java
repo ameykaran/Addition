@@ -6,10 +6,10 @@ public class Addition {
         return num1 + num2 + num3 + num4 + num5;
     }
 
-    public static float addx(float... num) {
+    public static float addx(float... values) {
         float total = 0.0f;
 
-        for (float v : num) {
+        for (float v : values) {
             total += v;
         }
 
